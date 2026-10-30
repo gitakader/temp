@@ -1,0 +1,652 @@
+C:\Windows\System32>adb shell dumpsys package com.vt.tv.mobiledeviceconnectiontips
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        1a706a9 com.vt.tv.mobiledeviceconnectiontips/.ui.MainActivity filter 7db842e
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.LEANBACK_LAUNCHER"
+        4517bcf com.vt.tv.mobiledeviceconnectiontips/.screensharing.ScreenSharingActivity filter b84f95c
+          Action: "android.intent.action.MAIN"
+          Action: "com.hisense.action.WIFIDISPLAY"
+          Category: "android.intent.category.LAUNCHER"
+        4c06465 com.vt.tv.mobiledeviceconnectiontips/.screensharing.ScreenSharingPlayerActivity filter f9fb53a
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        51405eb com.vt.tv.mobiledeviceconnectiontips/.ui.PCSharingActivity filter 2164f48
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        957e1e1 com.vt.tv.mobiledeviceconnectiontips/.ui.AirplayActivity filter 643eb06
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        92b15c7 com.vt.tv.mobiledeviceconnectiontips/.ui.ApplicationSharingActivity filter 6e517f4
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+      com.hisense.action.WIFIDISPLAY:
+        4517bcf com.vt.tv.mobiledeviceconnectiontips/.screensharing.ScreenSharingActivity filter b84f95c
+          Action: "android.intent.action.MAIN"
+          Action: "com.hisense.action.WIFIDISPLAY"
+          Category: "android.intent.category.LAUNCHER"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.hisense.wifidisplay.WifiDisplayService.action:
+        78fbb1d com.vt.tv.mobiledeviceconnectiontips/com.ms.ucast.protocol.wifidisplay.WifiDisplayService filter 8a3b192
+          Action: "com.hisense.wifidisplay.WifiDisplayService.action"
+
+Domain verification status:
+
+Key Set Manager:
+  [com.vt.tv.mobiledeviceconnectiontips]
+      Signing KeySets: 1
+
+Packages:
+  Package [com.vt.tv.mobiledeviceconnectiontips] (376b147):
+    userId=1000
+    sharedUser=SharedUserSetting{f0ec27 android.uid.system/1000}
+    pkg=Package{bb29ed4 com.vt.tv.mobiledeviceconnectiontips}
+    codePath=/system_ext/app/Miracast
+    resourcePath=/system_ext/app/Miracast
+    legacyNativeLibraryDir=/system_ext/app/Miracast/lib
+    extractNativeLibs=false
+    primaryCpuAbi=armeabi-v7a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=100001080 minSdk=26 targetSdk=31
+    minExtensionVersions=[]
+    versionName=1.00.00.108.0
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=3
+    applicationInfo=PackageImpl{bb29ed4 com.vt.tv.mobiledeviceconnectiontips}
+    flags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE SYSTEM_EXT PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesPackages=[]
+    dataDir=/data/user/0/com.vt.tv.mobiledeviceconnectiontips
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2009-01-01 06:00:00
+    firstInstallTime=2009-01-01 06:00:00
+    lastUpdateTime=2009-01-01 06:00:00
+    signatures=PackageSignatures{36a687d version:3, signatures:[11b2b8bf], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.SYSTEM_ALERT_WINDOW
+      android.permission.SYSTEM_OVERLAY_WINDOW
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.CHANGE_WIFI_STATE
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.FOREGROUND_SERVICE
+      android.permission.INTERACT_ACROSS_USERS
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.BROADCAST_STICKY
+      android.permission.CONNECTIVITY_INTERNAL
+      android.permission.CONFIGURE_WIFI_DISPLAY
+      android.permission.CONTROL_WIFI_DISPLAY
+      android.permission.ACCESS_FINE_LOCATION
+      android.Manifest.permission.NETWORK_SETTINGS
+      android.permission.NETWORK_SETTINGS
+      android.permission.ACCESS_COARSE_LOCATION
+    install permissions:
+      android.permission.REAL_GET_TASKS: granted=true
+      android.permission.ACCESS_CACHE_FILESYSTEM: granted=true
+      android.permission.WRITE_SETTINGS: granted=true
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE: granted=true
+      android.permission.CONFIGURE_WIFI_DISPLAY: granted=true
+      android.permission.RECOVERY: granted=true
+      android.permission.SET_PROCESS_LIMIT: granted=true
+      android.permission.BIND_ATTENTION_SERVICE: granted=true
+      android.permission.RESTART_PACKAGES: granted=true
+      android.permission.USE_CREDENTIALS: granted=true
+      com.mediatek.dtv.tvinput.isdbtuner.settings.settingsprovider.permission.READ_DATA: granted=true
+      android.permission.MODIFY_AUDIO_SETTINGS: granted=true
+      android.permission.MANAGE_EXTERNAL_STORAGE: granted=true
+      com.hisense.tv.smartsense.permission.ACCESS_FIREBASE_STORAGE: granted=true
+      com.hisense.tv.smartsense.permission.ACCESS_FIREBASE_LOG: granted=true
+      android.permission.INSTALL_LOCATION_PROVIDER: granted=true
+      android.permission.USE_RESERVED_DISK: granted=true
+      android.permission.MANAGE_ACCOUNTS: granted=true
+      android.permission.CONTROL_WIFI_DISPLAY: granted=true
+      android.permission.SYSTEM_ALERT_WINDOW: granted=true
+      android.permission.CLEAR_APP_USER_DATA: granted=true
+      com.mediatek.tis.settings.composite.permission.READ_DATA: granted=true
+      android.permission.SHUTDOWN: granted=true
+      android.permission.CHANGE_COMPONENT_ENABLED_STATE: granted=true
+      android.permission.BIND_TV_INPUT: granted=true
+      android.permission.MODIFY_PARENTAL_CONTROLS: granted=true
+      android.permission.BIND_ROTATION_RESOLVER_SERVICE: granted=true
+      android.permission.NETWORK_SETTINGS: granted=true
+      android.permission.CHANGE_NETWORK_STATE: granted=true
+      android.permission.MASTER_CLEAR: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.MANAGE_DYNAMIC_SYSTEM: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.PEERS_MAC_ADDRESS: granted=true
+      android.permission.DEVICE_POWER: granted=true
+      com.hisense.tv.smartsense.permission.ACCESS_DOMAIN: granted=true
+      com.vt.tv.mediacenter.permission.PLAYER_COMMAND: granted=true
+      android.permission.SET_TIME_ZONE: granted=true
+      android.permission.REMOVE_TASKS: granted=true
+      android.permission.MANAGE_PROFILE_AND_DEVICE_OWNERS: granted=true
+      com.hisense.tv.smartsense.permission.ACCESS_LOGSERVICE: granted=true
+      com.android.providers.tv.permission.READ_EPG_DATA: granted=true
+      android.permission.READ_PROFILE: granted=true
+      android.permission.BLUETOOTH: granted=true
+      android.permission.CHANGE_WIFI_MULTICAST_STATE: granted=true
+      com.google.android.assistant.WRITE_HOTWORD_STATE: granted=true
+      android.permission.WRITE_MEDIA_STORAGE: granted=true
+      com.android.setupwizard.permission.SETUP: granted=true
+      android.permission.SET_ANIMATION_SCALE: granted=true
+      android.permission.GET_TASKS: granted=true
+      android.permission.ACCESS_SURFACE_FLINGER: granted=true
+      android.permission.AUTHENTICATE_ACCOUNTS: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.TV_INPUT_HARDWARE: granted=true
+      android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION: granted=true
+      com.hisense.tv.permission.ACTIVITY_STATE: granted=true
+      android.permission.BLUETOOTH_ADMIN: granted=true
+      android.permission.CONTROL_VPN: granted=true
+      android.permission.UPDATE_DEVICE_STATS: granted=true
+      android.permission.ROTATE_SURFACE_FLINGER: granted=true
+      com.android.providers.tv.permission.WRITE_EPG_DATA: granted=true
+      android.permission.ACCESS_INSTANT_APPS: granted=true
+      android.permission.GET_PACKAGE_SIZE: granted=true
+      android.permission.ACCESS_CONTEXT_HUB: granted=true
+      android.permission.INTERACT_ACROSS_USERS_FULL: granted=true
+      android.permission.PACKAGE_USAGE_STATS: granted=true
+      android.permission.MOUNT_UNMOUNT_FILESYSTEMS: granted=true
+      android.permission.GET_ACCOUNTS_PRIVILEGED: granted=true
+      android.permission.TETHER_PRIVILEGED: granted=true
+      android.permission.WRITE_SECURE_SETTINGS: granted=true
+      android.permission.MANAGE_DEBUGGING: granted=true
+      android.permission.SET_ACTIVITY_WATCHER: granted=true
+      android.permission.TUNER_RESOURCE_ACCESS: granted=true
+      android.permission.RADIO_SCAN_WITHOUT_LOCATION: granted=true
+      android.permission.READ_PRIVILEGED_PHONE_STATE: granted=true
+      android.permission.TRIGGER_TIME_ZONE_RULES_CHECK: granted=true
+      android.permission.BROADCAST_STICKY: granted=true
+      android.permission.BLUETOOTH_PRIVILEGED: granted=true
+      android.permission.OBSERVE_SENSOR_PRIVACY: granted=false
+      com.mediatek.tis.settings.analog.permission.WRITE_DATA: granted=true
+      com.mediatek.permission.AirPlay.BroadCast: granted=true
+      android.intent.category.MASTER_CLEAR.permission.C2D_MESSAGE: granted=true
+      android.permission.BIND_JOB_SERVICE: granted=true
+      android.permission.CONFIRM_FULL_BACKUP: granted=true
+      android.permission.SET_TIME: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true
+      com.android.providers.tv.permission.ACCESS_ALL_EPG_DATA: granted=true
+      android.permission.MANAGE_USERS: granted=true
+      android.permission.SET_PREFERRED_APPLICATIONS: granted=true
+      android.permission.DELETE_CACHE_FILES: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.BACKUP: granted=true
+      android.permission.CHANGE_CONFIGURATION: granted=true
+      android.permission.LOCAL_MAC_ADDRESS: granted=true
+      android.permission.READ_LOGS: granted=true
+      android.permission.INTERACT_ACROSS_USERS: granted=true
+      android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS: granted=true
+      com.android.tv.settings.permission.NOTIFY_SETTINGS: granted=true
+      android.permission.KILL_BACKGROUND_PROCESSES: granted=true
+      android.permission.MAINLINE_NETWORK_STACK: granted=true
+      android.permission.MANAGE_SENSOR_PRIVACY: granted=false
+      android.permission.CONNECTIVITY_USE_RESTRICTED_NETWORKS: granted=true
+      android.permission.CHANGE_HDMI_CEC_ACTIVE_SOURCE: granted=true
+      android.permission.WRITE_DREAM_STATE: granted=true
+      com.mediatek.tis.settings.analog.permission.READ_DATA: granted=true
+      android.permission.REBOOT: granted=true
+      android.permission.ACCESS_TV_TUNER: granted=true
+      android.permission.SCHEDULE_EXACT_ALARM: granted=true
+      android.permission.REQUEST_DELETE_PACKAGES: granted=true
+      android.permission.CLEAR_APP_CACHE: granted=true
+      android.permission.ACCESS_TV_DESCRAMBLER: granted=true
+      com.hisense.tv.smartsense.permission.ACCESS_LOG: granted=true
+      android.permission.MANAGE_NOTIFICATION_LISTENERS: granted=true
+      android.permission.READ_CONTENT_RATING_SYSTEMS: granted=true
+      com.google.android.tvlauncher.permission.setDevserial: granted=true
+      com.google.android.assistant.READ_HOTWORD_STATE: granted=true
+      android.permission.SEND_SHOW_SUSPENDED_APP_DETAILS: granted=true
+      android.permission.CONNECTIVITY_INTERNAL: granted=true
+      android.permission.START_ACTIVITIES_FROM_BACKGROUND: granted=true
+      android.permission.LOADER_USAGE_STATS: granted=true
+      android.permission.OVERRIDE_WIFI_CONFIG: granted=true
+      android.permission.FORCE_STOP_PACKAGES: granted=true
+      android.permission.SUGGEST_MANUAL_TIME_AND_ZONE: granted=true
+      android.permission.HIDE_NON_SYSTEM_OVERLAY_WINDOWS: granted=true
+      android.permission.MEDIA_RESOURCE_OVERRIDE_PID: granted=true
+      android.permission.HDMI_CEC: granted=true
+      android.permission.MANAGE_SLICE_PERMISSIONS: granted=true
+      android.permission.MANAGE_SCOPED_ACCESS_DIRECTORY_PERMISSIONS: granted=true
+      com.vt.eula.permission.SYNC_EULA_STATE: granted=true
+      com.mediatek.tv.extservice.permission.REQUEST_AUDIO_EXT: granted=true
+      android.permission.GET_DETAILED_TASKS: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      com.mediatek.dtv.tvinput.isdbtuner.settings.settingsprovider.permission.WRITE_DATA: granted=true
+      android.permission.REQUEST_INSTALL_PACKAGES: granted=true
+      android.permission.QUERY_ALL_PACKAGES: granted=true
+      com.hisense.syncplay.permission: granted=true
+      com.google.android.gms.permission.AD_ID: granted=true
+      android.permission.DUMP: granted=true
+      android.permission.LOCATION_HARDWARE: granted=true
+      android.permission.UNLIMITED_TOASTS: granted=true
+      android.permission.WAKE_LOCK: granted=true
+      android.permission.INJECT_EVENTS: granted=true
+      android.permission.BIND_NETWORK_RECOMMENDATION_SERVICE: granted=true
+      android.permission.UPDATE_APP_OPS_STATS: granted=true
+      android.permission.READ_OEM_UNLOCK_STATE: granted=true
+      android.permission.DELETE_PACKAGES: granted=true
+    User 0: ceDataInode=269342 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false
+    User 11: ceDataInode=0 installed=false hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false
+
+Queries:
+  system apps queryable: false
+  forceQueryable:
+    [com.vt.source.tuner,com.vt.tv.airplaykeycheck,com.mediatek.tis,com.vt.tv.commonui,com.vt.alexa,com.android.dynsystem,com.android.location.fused,com.vt.avmiddleware,com.vt.tv.mobiledeviceconnectiontips,com.vt.tvservice,com.vt.tv.customerlauncher,com.android.tv.settings,com.vt.factory,com.android.keychain,com.android.networkstack.inprocess,com.android.wallpaperbackup,com.mediatek.network,com.vt.tv.input,com.vt.storemode,com.android.localtransport,com.vt.tv.protector,com.vt.eula,com.mediatek.autopair,com.mediatek.dtv.tvinput.isdbtuner,com.android.inputdevices,com.vt.fte,com.vt.tv.mediacenter,com.vt.hishow,com.vt.tv.smartservice,com.vt.tv.ota,com.vt.tv.smartsense.ui,android,com.vt.tv.tvcenter,com.vt.tv.usbota,com.vt.source.external,com.vt.tv.smartsense,com.android.providers.settings,com.vt.tv.singlelisten,com.android.networkstack.tethering.inprocess,com.at.factory.androidtvaidlservice]
+  queries via package name:
+  queries via intent:
+    [com.vt.source.tuner,com.vt.tv.airplaykeycheck,com.mediatek.tis,com.vt.tv.commonui,com.vt.alexa,com.android.dynsystem,com.android.location.fused,com.vt.avmiddleware,com.vt.tv.mobiledeviceconnectiontips,com.vt.tvservice,com.vt.tv.customerlauncher,com.android.tv.settings,com.vt.factory,com.android.keychain,com.android.networkstack.inprocess,com.android.wallpaperbackup,com.mediatek.network,com.vt.tv.input,com.vt.storemode,com.android.localtransport,com.vt.tv.protector,com.vt.eula,com.mediatek.autopair,com.mediatek.dtv.tvinput.isdbtuner,com.android.inputdevices,com.vt.fte,com.vt.tv.mediacenter,com.vt.hishow,com.vt.tv.smartservice,com.vt.tv.ota,com.vt.tv.smartsense.ui,android,com.vt.tv.tvcenter,com.vt.tv.usbota,com.vt.source.external,com.vt.tv.smartsense,com.android.providers.settings,com.vt.tv.singlelisten,com.android.networkstack.tethering.inprocess,com.at.factory.androidtvaidlservice]:
+      com.stremio.one
+      com.alphainventor.filemanager
+  queryable via interaction:
+    User 0:
+      [com.vt.source.tuner,com.vt.tv.airplaykeycheck,com.mediatek.tis,com.vt.tv.commonui,com.vt.alexa,com.android.dynsystem,com.android.location.fused,com.vt.avmiddleware,com.vt.tv.mobiledeviceconnectiontips,com.vt.tvservice,com.vt.tv.customerlauncher,com.android.tv.settings,com.vt.factory,com.android.keychain,com.android.networkstack.inprocess,com.android.wallpaperbackup,com.mediatek.network,com.vt.tv.input,com.vt.storemode,com.android.localtransport,com.vt.tv.protector,com.vt.eula,com.mediatek.autopair,com.mediatek.dtv.tvinput.isdbtuner,com.android.inputdevices,com.vt.fte,com.vt.tv.mediacenter,com.vt.hishow,com.vt.tv.smartservice,com.vt.tv.ota,com.vt.tv.smartsense.ui,android,com.vt.tv.tvcenter,com.vt.tv.usbota,com.vt.source.external,com.vt.tv.smartsense,com.android.providers.settings,com.vt.tv.singlelisten,com.android.networkstack.tethering.inprocess,com.at.factory.androidtvaidlservice]:
+        [com.vt.remoteupgrade,com.android.bluetooth]
+        com.android.providers.calendar
+        com.android.statementservice
+        com.android.providers.tv
+        com.android.externalstorage
+        [com.android.providers.media,com.android.soundpicker,com.android.providers.downloads]
+        [com.android.providers.contacts,com.android.providers.userdictionary]
+        com.google.android.tv.remote.service
+        com.google.android.apps.mediashell
+        com.google.android.apps.tv.launcherx
+        com.google.android.katniss
+        com.android.vending
+        com.google.android.tungsten.setupwraith
+        com.google.android.apps.tv.dreamx
+        [com.google.android.gsf,com.google.android.gms]
+        com.google.android.syncadapters.calendar
+        com.google.android.tts
+        com.google.android.youtube.tv
+        com.google.android.play.games
+        com.google.android.inputmethod.latin
+        com.mediatek.partner.airplay_sys
+        com.google.android.partnersetup
+        com.mediatek.tv.agent
+        com.android.systemui
+        com.vt.tv.aiot
+        com.vt.tv.evservice
+        com.amazon.amazonvideo.livingroom
+        com.vt.edv.drmp
+        com.vt.tv.dlna
+        com.netflix.ninja
+        com.google.android.permissioncontroller
+        com.android.providers.media.module
+        com.google.android.ext.services
+        news.androidtv.launchonboot
+        com.spocky.projengmenu
+        flar2.homebutton
+        com.stremio.one
+        za.kilowatch.ultimatefilemanager
+        com.alphainventor.filemanager
+        com.mk.tv.gallery
+        org.smarttube.stable
+        com.cybercat.adbappcontrol.tv
+        com.aicareles.dlnaserver
+      [com.vt.remoteupgrade,com.android.bluetooth]:
+        [com.vt.source.tuner,com.vt.tv.airplaykeycheck,com.mediatek.tis,com.vt.tv.commonui,com.vt.alexa,com.android.dynsystem,com.android.location.fused,com.vt.avmiddleware,com.vt.tv.mobiledeviceconnectiontips,com.vt.tvservice,com.vt.tv.customerlauncher,com.android.tv.settings,com.vt.factory,com.android.keychain,com.android.networkstack.inprocess,com.android.wallpaperbackup,com.mediatek.network,com.vt.tv.input,com.vt.storemode,com.android.localtransport,com.vt.tv.protector,com.vt.eula,com.mediatek.autopair,com.mediatek.dtv.tvinput.isdbtuner,com.android.inputdevices,com.vt.fte,com.vt.tv.mediacenter,com.vt.hishow,com.vt.tv.smartservice,com.vt.tv.ota,com.vt.tv.smartsense.ui,android,com.vt.tv.tvcenter,com.vt.tv.usbota,com.vt.source.external,com.vt.tv.smartsense,com.android.providers.settings,com.vt.tv.singlelisten,com.android.networkstack.tethering.inprocess,com.at.factory.androidtvaidlservice]
+      com.android.providers.calendar:
+        [com.vt.source.tuner,com.vt.tv.airplaykeycheck,com.mediatek.tis,com.vt.tv.commonui,com.vt.alexa,com.android.dynsystem,com.android.location.fused,com.vt.avmiddleware,com.vt.tv.mobiledeviceconnectiontips,com.vt.tvservice,com.vt.tv.customerlauncher,com.android.tv.settings,com.vt.factory,com.android.keychain,com.android.networkstack.inprocess,com.android.wallpaperbackup,com.mediatek.network,com.vt.tv.input,com.vt.storemode,com.android.localtransport,com.vt.tv.protector,com.vt.eula,com.mediatek.autopair,com.mediatek.dtv.tvinput.isdbtuner,com.android.inputdevices,com.vt.fte,com.vt.tv.mediacenter,com.vt.hishow,com.vt.tv.smartservice,com.vt.tv.ota,com.vt.tv.smartsense.ui,android,com.vt.tv.tvcenter,com.vt.tv.usbota,com.vt.source.external,com.vt.tv.smartsense,com.android.providers.settings,com.vt.tv.singlelisten,com.android.networkstack.tethering.inprocess,com.at.factory.androidtvaidlservice]
+      com.android.statementservice:
+        [com.vt.source.tuner,com.vt.tv.airplaykeycheck,com.mediatek.tis,com.vt.tv.commonui,com.vt.alexa,com.android.dynsystem,com.android.location.fused,com.vt.avmiddleware,com.vt.tv.mobiledeviceconnectiontips,com.vt.tvservice,com.vt.tv.customerlauncher,com.android.tv.settings,com.vt.factory,com.android.keychain,com.android.networkstack.inprocess,com.android.wallpaperbackup,com.mediatek.network,com.vt.tv.input,com.vt.storemode,com.android.localtransport,com.vt.tv.protector,com.vt.eula,com.mediatek.autopair,com.mediatek.dtv.tvinput.isdbtuner,com.android.inputdevices,com.vt.fte,com.vt.tv.mediacenter,com.vt.hishow,com.vt.tv.smartservice,com.vt.tv.ota,com.vt.tv.smartsense.ui,android,com.vt.tv.tvcenter,com.vt.tv.usbota,com.vt.source.external,com.vt.tv.smartsense,com.android.providers.settings,com.vt.tv.singlelisten,com.android.networkstack.tethering.inprocess,com.at.factory.androidtvaidlservice]
+      com.android.providers.tv:
+        [com.vt.source.tuner,com.vt.tv.airplaykeycheck,com.mediatek.tis,com.vt.tv.commonui,com.vt.alexa,com.android.dynsystem,com.android.location.fused,com.vt.avmiddleware,com.vt.tv.mobiledeviceconnectiontips,com.vt.tvservice,com.vt.tv.customerlauncher,com.android.tv.settings,com.vt.factory,com.android.keychain,com.android.networkstack.inprocess,com.android.wallpaperbackup,com.mediatek.network,com.vt.tv.input,com.vt.storemode,com.android.localtransport,com.vt.tv.protector,com.vt.eula,com.mediatek.autopair,com.mediatek.dtv.tvinput.isdbtuner,com.android.inputdevices,com.vt.fte,com.vt.tv.mediacenter,com.vt.hishow,com.vt.tv.smartservice,com.vt.tv.ota,com.vt.tv.smartsense.ui,android,com.vt.tv.tvcenter,com.vt.tv.usbota,com.vt.source.external,com.vt.tv.smartsense,com.android.providers.settings,com.vt.tv.singlelisten,com.android.networkstack.tethering.inprocess,com.at.factory.androidtvaidlservice]
+      [com.android.providers.media,com.android.soundpicker,com.android.providers.downloads]:
+        [com.vt.source.tuner,com.vt.tv.airplaykeycheck,com.mediatek.tis,com.vt.tv.commonui,com.vt.alexa,com.android.dynsystem,com.android.location.fused,com.vt.avmiddleware,com.vt.tv.mobiledeviceconnectiontips,com.vt.tvservice,com.vt.tv.customerlauncher,com.android.tv.settings,com.vt.factory,com.android.keychain,com.android.networkstack.inprocess,com.android.wallpaperbackup,com.mediatek.network,com.vt.tv.input,com.vt.storemode,com.android.localtransport,com.vt.tv.protector,com.vt.eula,com.mediatek.autopair,com.mediatek.dtv.tvinput.isdbtuner,com.android.inputdevices,com.vt.fte,com.vt.tv.mediacenter,com.vt.hishow,com.vt.tv.smartservice,com.vt.tv.ota,com.vt.tv.smartsense.ui,android,com.vt.tv.tvcenter,com.vt.tv.usbota,com.vt.source.external,com.vt.tv.smartsense,com.android.providers.settings,com.vt.tv.singlelisten,com.android.networkstack.tethering.inprocess,com.at.factory.androidtvaidlservice]
+      com.google.android.tv.remote.service:
+        [com.vt.source.tuner,com.vt.tv.airplaykeycheck,com.mediatek.tis,com.vt.tv.commonui,com.vt.alexa,com.android.dynsystem,com.android.location.fused,com.vt.avmiddleware,com.vt.tv.mobiledeviceconnectiontips,com.vt.tvservice,com.vt.tv.customerlauncher,com.android.tv.settings,com.vt.factory,com.android.keychain,com.android.networkstack.inprocess,com.android.wallpaperbackup,com.mediatek.network,com.vt.tv.input,com.vt.storemode,com.android.localtransport,com.vt.tv.protector,com.vt.eula,com.mediatek.autopair,com.mediatek.dtv.tvinput.isdbtuner,com.android.inputdevices,com.vt.fte,com.vt.tv.mediacenter,com.vt.hishow,com.vt.tv.smartservice,com.vt.tv.ota,com.vt.tv.smartsense.ui,android,com.vt.tv.tvcenter,com.vt.tv.usbota,com.vt.source.external,com.vt.tv.smartsense,com.android.providers.settings,com.vt.tv.singlelisten,com.android.networkstack.tethering.inprocess,com.at.factory.androidtvaidlservice]
+      com.google.android.apps.mediashell:
+        [com.vt.source.tuner,com.vt.tv.airplaykeycheck,com.mediatek.tis,com.vt.tv.commonui,com.vt.alexa,com.android.dynsystem,com.android.location.fused,com.vt.avmiddleware,com.vt.tv.mobiledeviceconnectiontips,com.vt.tvservice,com.vt.tv.customerlauncher,com.android.tv.settings,com.vt.factory,com.android.keychain,com.android.networkstack.inprocess,com.android.wallpaperbackup,com.mediatek.network,com.vt.tv.input,com.vt.storemode,com.android.localtransport,com.vt.tv.protector,com.vt.eula,com.mediatek.autopair,com.mediatek.dtv.tvinput.isdbtuner,com.android.inputdevices,com.vt.fte,com.vt.tv.mediacenter,com.vt.hishow,com.vt.tv.smartservice,com.vt.tv.ota,com.vt.tv.smartsense.ui,android,com.vt.tv.tvcenter,com.vt.tv.usbota,com.vt.source.external,com.vt.tv.smartsense,com.android.providers.settings,com.vt.tv.singlelisten,com.android.networkstack.tethering.inprocess,com.at.factory.androidtvaidlservice]
+      com.google.android.apps.tv.launcherx:
+        [com.vt.source.tuner,com.vt.tv.airplaykeycheck,com.mediatek.tis,com.vt.tv.commonui,com.vt.alexa,com.android.dynsystem,com.android.location.fused,com.vt.avmiddleware,com.vt.tv.mobiledeviceconnectiontips,com.vt.tvservice,com.vt.tv.customerlauncher,com.android.tv.settings,com.vt.factory,com.android.keychain,com.android.networkstack.inprocess,com.android.wallpaperbackup,com.mediatek.network,com.vt.tv.input,com.vt.storemode,com.android.localtransport,com.vt.tv.protector,com.vt.eula,com.mediatek.autopair,com.mediatek.dtv.tvinput.isdbtuner,com.android.inputdevices,com.vt.fte,com.vt.tv.mediacenter,com.vt.hishow,com.vt.tv.smartservice,com.vt.tv.ota,com.vt.tv.smartsense.ui,android,com.vt.tv.tvcenter,com.vt.tv.usbota,com.vt.source.external,com.vt.tv.smartsense,com.android.providers.settings,com.vt.tv.singlelisten,com.android.networkstack.tethering.inprocess,com.at.factory.androidtvaidlservice]
+      com.google.android.katniss:
+        [com.vt.source.tuner,com.vt.tv.airplaykeycheck,com.mediatek.tis,com.vt.tv.commonui,com.vt.alexa,com.android.dynsystem,com.android.location.fused,com.vt.avmiddleware,com.vt.tv.mobiledeviceconnectiontips,com.vt.tvservice,com.vt.tv.customerlauncher,com.android.tv.settings,com.vt.factory,com.android.keychain,com.android.networkstack.inprocess,com.android.wallpaperbackup,com.mediatek.network,com.vt.tv.input,com.vt.storemode,com.android.localtransport,com.vt.tv.protector,com.vt.eula,com.mediatek.autopair,com.mediatek.dtv.tvinput.isdbtuner,com.android.inputdevices,com.vt.fte,com.vt.tv.mediacenter,com.vt.hishow,com.vt.tv.smartservice,com.vt.tv.ota,com.vt.tv.smartsense.ui,android,com.vt.tv.tvcenter,com.vt.tv.usbota,com.vt.source.external,com.vt.tv.smartsense,com.android.providers.settings,com.vt.tv.singlelisten,com.android.networkstack.tethering.inprocess,com.at.factory.androidtvaidlservice]
+      com.android.vending:
+        [com.vt.source.tuner,com.vt.tv.airplaykeycheck,com.mediatek.tis,com.vt.tv.commonui,com.vt.alexa,com.android.dynsystem,com.android.location.fused,com.vt.avmiddleware,com.vt.tv.mobiledeviceconnectiontips,com.vt.tvservice,com.vt.tv.customerlauncher,com.android.tv.settings,com.vt.factory,com.android.keychain,com.android.networkstack.inprocess,com.android.wallpaperbackup,com.mediatek.network,com.vt.tv.input,com.vt.storemode,com.android.localtransport,com.vt.tv.protector,com.vt.eula,com.mediatek.autopair,com.mediatek.dtv.tvinput.isdbtuner,com.android.inputdevices,com.vt.fte,com.vt.tv.mediacenter,com.vt.hishow,com.vt.tv.smartservice,com.vt.tv.ota,com.vt.tv.smartsense.ui,android,com.vt.tv.tvcenter,com.vt.tv.usbota,com.vt.source.external,com.vt.tv.smartsense,com.android.providers.settings,com.vt.tv.singlelisten,com.android.networkstack.tethering.inprocess,com.at.factory.androidtvaidlservice]
+      com.google.android.apps.tv.dreamx:
+        [com.vt.source.tuner,com.vt.tv.airplaykeycheck,com.mediatek.tis,com.vt.tv.commonui,com.vt.alexa,com.android.dynsystem,com.android.location.fused,com.vt.avmiddleware,com.vt.tv.mobiledeviceconnectiontips,com.vt.tvservice,com.vt.tv.customerlauncher,com.android.tv.settings,com.vt.factory,com.android.keychain,com.android.networkstack.inprocess,com.android.wallpaperbackup,com.mediatek.network,com.vt.tv.input,com.vt.storemode,com.android.localtransport,com.vt.tv.protector,com.vt.eula,com.mediatek.autopair,com.mediatek.dtv.tvinput.isdbtuner,com.android.inputdevices,com.vt.fte,com.vt.tv.mediacenter,com.vt.hishow,com.vt.tv.smartservice,com.vt.tv.ota,com.vt.tv.smartsense.ui,android,com.vt.tv.tvcenter,com.vt.tv.usbota,com.vt.source.external,com.vt.tv.smartsense,com.android.providers.settings,com.vt.tv.singlelisten,com.android.networkstack.tethering.inprocess,com.at.factory.androidtvaidlservice]
+      [com.google.android.gsf,com.google.android.gms]:
+        [com.vt.source.tuner,com.vt.tv.airplaykeycheck,com.mediatek.tis,com.vt.tv.commonui,com.vt.alexa,com.android.dynsystem,com.android.location.fused,com.vt.avmiddleware,com.vt.tv.mobiledeviceconnectiontips,com.vt.tvservice,com.vt.tv.customerlauncher,com.android.tv.settings,com.vt.factory,com.android.keychain,com.android.networkstack.inprocess,com.android.wallpaperbackup,com.mediatek.network,com.vt.tv.input,com.vt.storemode,com.android.localtransport,com.vt.tv.protector,com.vt.eula,com.mediatek.autopair,com.mediatek.dtv.tvinput.isdbtuner,com.android.inputdevices,com.vt.fte,com.vt.tv.mediacenter,com.vt.hishow,com.vt.tv.smartservice,com.vt.tv.ota,com.vt.tv.smartsense.ui,android,com.vt.tv.tvcenter,com.vt.tv.usbota,com.vt.source.external,com.vt.tv.smartsense,com.android.providers.settings,com.vt.tv.singlelisten,com.android.networkstack.tethering.inprocess,com.at.factory.androidtvaidlservice]
+      com.google.android.syncadapters.calendar:
+        [com.vt.source.tuner,com.vt.tv.airplaykeycheck,com.mediatek.tis,com.vt.tv.commonui,com.vt.alexa,com.android.dynsystem,com.android.location.fused,com.vt.avmiddleware,com.vt.tv.mobiledeviceconnectiontips,com.vt.tvservice,com.vt.tv.customerlauncher,com.android.tv.settings,com.vt.factory,com.android.keychain,com.android.networkstack.inprocess,com.android.wallpaperbackup,com.mediatek.network,com.vt.tv.input,com.vt.storemode,com.android.localtransport,com.vt.tv.protector,com.vt.eula,com.mediatek.autopair,com.mediatek.dtv.tvinput.isdbtuner,com.android.inputdevices,com.vt.fte,com.vt.tv.mediacenter,com.vt.hishow,com.vt.tv.smartservice,com.vt.tv.ota,com.vt.tv.smartsense.ui,android,com.vt.tv.tvcenter,com.vt.tv.usbota,com.vt.source.external,com.vt.tv.smartsense,com.android.providers.settings,com.vt.tv.singlelisten,com.android.networkstack.tethering.inprocess,com.at.factory.androidtvaidlservice]
+      com.google.android.webview:
+        [com.vt.source.tuner,com.vt.tv.airplaykeycheck,com.mediatek.tis,com.vt.tv.commonui,com.vt.alexa,com.android.dynsystem,com.android.location.fused,com.vt.avmiddleware,com.vt.tv.mobiledeviceconnectiontips,com.vt.tvservice,com.vt.tv.customerlauncher,com.android.tv.settings,com.vt.factory,com.android.keychain,com.android.networkstack.inprocess,com.android.wallpaperbackup,com.mediatek.network,com.vt.tv.input,com.vt.storemode,com.android.localtransport,com.vt.tv.protector,com.vt.eula,com.mediatek.autopair,com.mediatek.dtv.tvinput.isdbtuner,com.android.inputdevices,com.vt.fte,com.vt.tv.mediacenter,com.vt.hishow,com.vt.tv.smartservice,com.vt.tv.ota,com.vt.tv.smartsense.ui,android,com.vt.tv.tvcenter,com.vt.tv.usbota,com.vt.source.external,com.vt.tv.smartsense,com.android.providers.settings,com.vt.tv.singlelisten,com.android.networkstack.tethering.inprocess,com.at.factory.androidtvaidlservice]
+      com.google.android.tts:
+        [com.vt.source.tuner,com.vt.tv.airplaykeycheck,com.mediatek.tis,com.vt.tv.commonui,com.vt.alexa,com.android.dynsystem,com.android.location.fused,com.vt.avmiddleware,com.vt.tv.mobiledeviceconnectiontips,com.vt.tvservice,com.vt.tv.customerlauncher,com.android.tv.settings,com.vt.factory,com.android.keychain,com.android.networkstack.inprocess,com.android.wallpaperbackup,com.mediatek.network,com.vt.tv.input,com.vt.storemode,com.android.localtransport,com.vt.tv.protector,com.vt.eula,com.mediatek.autopair,com.mediatek.dtv.tvinput.isdbtuner,com.android.inputdevices,com.vt.fte,com.vt.tv.mediacenter,com.vt.hishow,com.vt.tv.smartservice,com.vt.tv.ota,com.vt.tv.smartsense.ui,android,com.vt.tv.tvcenter,com.vt.tv.usbota,com.vt.source.external,com.vt.tv.smartsense,com.android.providers.settings,com.vt.tv.singlelisten,com.android.networkstack.tethering.inprocess,com.at.factory.androidtvaidlservice]
+      com.google.android.youtube.tv:
+        [com.vt.source.tuner,com.vt.tv.airplaykeycheck,com.mediatek.tis,com.vt.tv.commonui,com.vt.alexa,com.android.dynsystem,com.android.location.fused,com.vt.avmiddleware,com.vt.tv.mobiledeviceconnectiontips,com.vt.tvservice,com.vt.tv.customerlauncher,com.android.tv.settings,com.vt.factory,com.android.keychain,com.android.networkstack.inprocess,com.android.wallpaperbackup,com.mediatek.network,com.vt.tv.input,com.vt.storemode,com.android.localtransport,com.vt.tv.protector,com.vt.eula,com.mediatek.autopair,com.mediatek.dtv.tvinput.isdbtuner,com.android.inputdevices,com.vt.fte,com.vt.tv.mediacenter,com.vt.hishow,com.vt.tv.smartservice,com.vt.tv.ota,com.vt.tv.smartsense.ui,android,com.vt.tv.tvcenter,com.vt.tv.usbota,com.vt.source.external,com.vt.tv.smartsense,com.android.providers.settings,com.vt.tv.singlelisten,com.android.networkstack.tethering.inprocess,com.at.factory.androidtvaidlservice]
+      com.google.android.inputmethod.latin:
+        [com.vt.source.tuner,com.vt.tv.airplaykeycheck,com.mediatek.tis,com.vt.tv.commonui,com.vt.alexa,com.android.dynsystem,com.android.location.fused,com.vt.avmiddleware,com.vt.tv.mobiledeviceconnectiontips,com.vt.tvservice,com.vt.tv.customerlauncher,com.android.tv.settings,com.vt.factory,com.android.keychain,com.android.networkstack.inprocess,com.android.wallpaperbackup,com.mediatek.network,com.vt.tv.input,com.vt.storemode,com.android.localtransport,com.vt.tv.protector,com.vt.eula,com.mediatek.autopair,com.mediatek.dtv.tvinput.isdbtuner,com.android.inputdevices,com.vt.fte,com.vt.tv.mediacenter,com.vt.hishow,com.vt.tv.smartservice,com.vt.tv.ota,com.vt.tv.smartsense.ui,android,com.vt.tv.tvcenter,com.vt.tv.usbota,com.vt.source.external,com.vt.tv.smartsense,com.android.providers.settings,com.vt.tv.singlelisten,com.android.networkstack.tethering.inprocess,com.at.factory.androidtvaidlservice]
+      com.google.android.partnersetup:
+        [com.vt.source.tuner,com.vt.tv.airplaykeycheck,com.mediatek.tis,com.vt.tv.commonui,com.vt.alexa,com.android.dynsystem,com.android.location.fused,com.vt.avmiddleware,com.vt.tv.mobiledeviceconnectiontips,com.vt.tvservice,com.vt.tv.customerlauncher,com.android.tv.settings,com.vt.factory,com.android.keychain,com.android.networkstack.inprocess,com.android.wallpaperbackup,com.mediatek.network,com.vt.tv.input,com.vt.storemode,com.android.localtransport,com.vt.tv.protector,com.vt.eula,com.mediatek.autopair,com.mediatek.dtv.tvinput.isdbtuner,com.android.inputdevices,com.vt.fte,com.vt.tv.mediacenter,com.vt.hishow,com.vt.tv.smartservice,com.vt.tv.ota,com.vt.tv.smartsense.ui,android,com.vt.tv.tvcenter,com.vt.tv.usbota,com.vt.source.external,com.vt.tv.smartsense,com.android.providers.settings,com.vt.tv.singlelisten,com.android.networkstack.tethering.inprocess,com.at.factory.androidtvaidlservice]
+      com.mediatek.tv.agent:
+        [com.vt.source.tuner,com.vt.tv.airplaykeycheck,com.mediatek.tis,com.vt.tv.commonui,com.vt.alexa,com.android.dynsystem,com.android.location.fused,com.vt.avmiddleware,com.vt.tv.mobiledeviceconnectiontips,com.vt.tvservice,com.vt.tv.customerlauncher,com.android.tv.settings,com.vt.factory,com.android.keychain,com.android.networkstack.inprocess,com.android.wallpaperbackup,com.mediatek.network,com.vt.tv.input,com.vt.storemode,com.android.localtransport,com.vt.tv.protector,com.vt.eula,com.mediatek.autopair,com.mediatek.dtv.tvinput.isdbtuner,com.android.inputdevices,com.vt.fte,com.vt.tv.mediacenter,com.vt.hishow,com.vt.tv.smartservice,com.vt.tv.ota,com.vt.tv.smartsense.ui,android,com.vt.tv.tvcenter,com.vt.tv.usbota,com.vt.source.external,com.vt.tv.smartsense,com.android.providers.settings,com.vt.tv.singlelisten,com.android.networkstack.tethering.inprocess,com.at.factory.androidtvaidlservice]
+      com.android.systemui:
+        [com.vt.source.tuner,com.vt.tv.airplaykeycheck,com.mediatek.tis,com.vt.tv.commonui,com.vt.alexa,com.android.dynsystem,com.android.location.fused,com.vt.avmiddleware,com.vt.tv.mobiledeviceconnectiontips,com.vt.tvservice,com.vt.tv.customerlauncher,com.android.tv.settings,com.vt.factory,com.android.keychain,com.android.networkstack.inprocess,com.android.wallpaperbackup,com.mediatek.network,com.vt.tv.input,com.vt.storemode,com.android.localtransport,com.vt.tv.protector,com.vt.eula,com.mediatek.autopair,com.mediatek.dtv.tvinput.isdbtuner,com.android.inputdevices,com.vt.fte,com.vt.tv.mediacenter,com.vt.hishow,com.vt.tv.smartservice,com.vt.tv.ota,com.vt.tv.smartsense.ui,android,com.vt.tv.tvcenter,com.vt.tv.usbota,com.vt.source.external,com.vt.tv.smartsense,com.android.providers.settings,com.vt.tv.singlelisten,com.android.networkstack.tethering.inprocess,com.at.factory.androidtvaidlservice]
+      com.vt.tv.evservice:
+        [com.vt.source.tuner,com.vt.tv.airplaykeycheck,com.mediatek.tis,com.vt.tv.commonui,com.vt.alexa,com.android.dynsystem,com.android.location.fused,com.vt.avmiddleware,com.vt.tv.mobiledeviceconnectiontips,com.vt.tvservice,com.vt.tv.customerlauncher,com.android.tv.settings,com.vt.factory,com.android.keychain,com.android.networkstack.inprocess,com.android.wallpaperbackup,com.mediatek.network,com.vt.tv.input,com.vt.storemode,com.android.localtransport,com.vt.tv.protector,com.vt.eula,com.mediatek.autopair,com.mediatek.dtv.tvinput.isdbtuner,com.android.inputdevices,com.vt.fte,com.vt.tv.mediacenter,com.vt.hishow,com.vt.tv.smartservice,com.vt.tv.ota,com.vt.tv.smartsense.ui,android,com.vt.tv.tvcenter,com.vt.tv.usbota,com.vt.source.external,com.vt.tv.smartsense,com.android.providers.settings,com.vt.tv.singlelisten,com.android.networkstack.tethering.inprocess,com.at.factory.androidtvaidlservice]
+      com.amazon.amazonvideo.livingroom:
+        [com.vt.source.tuner,com.vt.tv.airplaykeycheck,com.mediatek.tis,com.vt.tv.commonui,com.vt.alexa,com.android.dynsystem,com.android.location.fused,com.vt.avmiddleware,com.vt.tv.mobiledeviceconnectiontips,com.vt.tvservice,com.vt.tv.customerlauncher,com.android.tv.settings,com.vt.factory,com.android.keychain,com.android.networkstack.inprocess,com.android.wallpaperbackup,com.mediatek.network,com.vt.tv.input,com.vt.storemode,com.android.localtransport,com.vt.tv.protector,com.vt.eula,com.mediatek.autopair,com.mediatek.dtv.tvinput.isdbtuner,com.android.inputdevices,com.vt.fte,com.vt.tv.mediacenter,com.vt.hishow,com.vt.tv.smartservice,com.vt.tv.ota,com.vt.tv.smartsense.ui,android,com.vt.tv.tvcenter,com.vt.tv.usbota,com.vt.source.external,com.vt.tv.smartsense,com.android.providers.settings,com.vt.tv.singlelisten,com.android.networkstack.tethering.inprocess,com.at.factory.androidtvaidlservice]
+      com.mediatek.extservice:
+        [com.vt.source.tuner,com.vt.tv.airplaykeycheck,com.mediatek.tis,com.vt.tv.commonui,com.vt.alexa,com.android.dynsystem,com.android.location.fused,com.vt.avmiddleware,com.vt.tv.mobiledeviceconnectiontips,com.vt.tvservice,com.vt.tv.customerlauncher,com.android.tv.settings,com.vt.factory,com.android.keychain,com.android.networkstack.inprocess,com.android.wallpaperbackup,com.mediatek.network,com.vt.tv.input,com.vt.storemode,com.android.localtransport,com.vt.tv.protector,com.vt.eula,com.mediatek.autopair,com.mediatek.dtv.tvinput.isdbtuner,com.android.inputdevices,com.vt.fte,com.vt.tv.mediacenter,com.vt.hishow,com.vt.tv.smartservice,com.vt.tv.ota,com.vt.tv.smartsense.ui,android,com.vt.tv.tvcenter,com.vt.tv.usbota,com.vt.source.external,com.vt.tv.smartsense,com.android.providers.settings,com.vt.tv.singlelisten,com.android.networkstack.tethering.inprocess,com.at.factory.androidtvaidlservice]
+      com.vt.edv.drmp:
+        [com.vt.source.tuner,com.vt.tv.airplaykeycheck,com.mediatek.tis,com.vt.tv.commonui,com.vt.alexa,com.android.dynsystem,com.android.location.fused,com.vt.avmiddleware,com.vt.tv.mobiledeviceconnectiontips,com.vt.tvservice,com.vt.tv.customerlauncher,com.android.tv.settings,com.vt.factory,com.android.keychain,com.android.networkstack.inprocess,com.android.wallpaperbackup,com.mediatek.network,com.vt.tv.input,com.vt.storemode,com.android.localtransport,com.vt.tv.protector,com.vt.eula,com.mediatek.autopair,com.mediatek.dtv.tvinput.isdbtuner,com.android.inputdevices,com.vt.fte,com.vt.tv.mediacenter,com.vt.hishow,com.vt.tv.smartservice,com.vt.tv.ota,com.vt.tv.smartsense.ui,android,com.vt.tv.tvcenter,com.vt.tv.usbota,com.vt.source.external,com.vt.tv.smartsense,com.android.providers.settings,com.vt.tv.singlelisten,com.android.networkstack.tethering.inprocess,com.at.factory.androidtvaidlservice]
+      com.netflix.ninja:
+        [com.vt.source.tuner,com.vt.tv.airplaykeycheck,com.mediatek.tis,com.vt.tv.commonui,com.vt.alexa,com.android.dynsystem,com.android.location.fused,com.vt.avmiddleware,com.vt.tv.mobiledeviceconnectiontips,com.vt.tvservice,com.vt.tv.customerlauncher,com.android.tv.settings,com.vt.factory,com.android.keychain,com.android.networkstack.inprocess,com.android.wallpaperbackup,com.mediatek.network,com.vt.tv.input,com.vt.storemode,com.android.localtransport,com.vt.tv.protector,com.vt.eula,com.mediatek.autopair,com.mediatek.dtv.tvinput.isdbtuner,com.android.inputdevices,com.vt.fte,com.vt.tv.mediacenter,com.vt.hishow,com.vt.tv.smartservice,com.vt.tv.ota,com.vt.tv.smartsense.ui,android,com.vt.tv.tvcenter,com.vt.tv.usbota,com.vt.source.external,com.vt.tv.smartsense,com.android.providers.settings,com.vt.tv.singlelisten,com.android.networkstack.tethering.inprocess,com.at.factory.androidtvaidlservice]
+      com.google.android.permissioncontroller:
+        [com.vt.source.tuner,com.vt.tv.airplaykeycheck,com.mediatek.tis,com.vt.tv.commonui,com.vt.alexa,com.android.dynsystem,com.android.location.fused,com.vt.avmiddleware,com.vt.tv.mobiledeviceconnectiontips,com.vt.tvservice,com.vt.tv.customerlauncher,com.android.tv.settings,com.vt.factory,com.android.keychain,com.android.networkstack.inprocess,com.android.wallpaperbackup,com.mediatek.network,com.vt.tv.input,com.vt.storemode,com.android.localtransport,com.vt.tv.protector,com.vt.eula,com.mediatek.autopair,com.mediatek.dtv.tvinput.isdbtuner,com.android.inputdevices,com.vt.fte,com.vt.tv.mediacenter,com.vt.hishow,com.vt.tv.smartservice,com.vt.tv.ota,com.vt.tv.smartsense.ui,android,com.vt.tv.tvcenter,com.vt.tv.usbota,com.vt.source.external,com.vt.tv.smartsense,com.android.providers.settings,com.vt.tv.singlelisten,com.android.networkstack.tethering.inprocess,com.at.factory.androidtvaidlservice]
+      com.android.providers.media.module:
+        [com.vt.source.tuner,com.vt.tv.airplaykeycheck,com.mediatek.tis,com.vt.tv.commonui,com.vt.alexa,com.android.dynsystem,com.android.location.fused,com.vt.avmiddleware,com.vt.tv.mobiledeviceconnectiontips,com.vt.tvservice,com.vt.tv.customerlauncher,com.android.tv.settings,com.vt.factory,com.android.keychain,com.android.networkstack.inprocess,com.android.wallpaperbackup,com.mediatek.network,com.vt.tv.input,com.vt.storemode,com.android.localtransport,com.vt.tv.protector,com.vt.eula,com.mediatek.autopair,com.mediatek.dtv.tvinput.isdbtuner,com.android.inputdevices,com.vt.fte,com.vt.tv.mediacenter,com.vt.hishow,com.vt.tv.smartservice,com.vt.tv.ota,com.vt.tv.smartsense.ui,android,com.vt.tv.tvcenter,com.vt.tv.usbota,com.vt.source.external,com.vt.tv.smartsense,com.android.providers.settings,com.vt.tv.singlelisten,com.android.networkstack.tethering.inprocess,com.at.factory.androidtvaidlservice]
+      com.google.android.ext.services:
+        [com.vt.source.tuner,com.vt.tv.airplaykeycheck,com.mediatek.tis,com.vt.tv.commonui,com.vt.alexa,com.android.dynsystem,com.android.location.fused,com.vt.avmiddleware,com.vt.tv.mobiledeviceconnectiontips,com.vt.tvservice,com.vt.tv.customerlauncher,com.android.tv.settings,com.vt.factory,com.android.keychain,com.android.networkstack.inprocess,com.android.wallpaperbackup,com.mediatek.network,com.vt.tv.input,com.vt.storemode,com.android.localtransport,com.vt.tv.protector,com.vt.eula,com.mediatek.autopair,com.mediatek.dtv.tvinput.isdbtuner,com.android.inputdevices,com.vt.fte,com.vt.tv.mediacenter,com.vt.hishow,com.vt.tv.smartservice,com.vt.tv.ota,com.vt.tv.smartsense.ui,android,com.vt.tv.tvcenter,com.vt.tv.usbota,com.vt.source.external,com.vt.tv.smartsense,com.android.providers.settings,com.vt.tv.singlelisten,com.android.networkstack.tethering.inprocess,com.at.factory.androidtvaidlservice]
+      com.spocky.projengmenu:
+        [com.vt.source.tuner,com.vt.tv.airplaykeycheck,com.mediatek.tis,com.vt.tv.commonui,com.vt.alexa,com.android.dynsystem,com.android.location.fused,com.vt.avmiddleware,com.vt.tv.mobiledeviceconnectiontips,com.vt.tvservice,com.vt.tv.customerlauncher,com.android.tv.settings,com.vt.factory,com.android.keychain,com.android.networkstack.inprocess,com.android.wallpaperbackup,com.mediatek.network,com.vt.tv.input,com.vt.storemode,com.android.localtransport,com.vt.tv.protector,com.vt.eula,com.mediatek.autopair,com.mediatek.dtv.tvinput.isdbtuner,com.android.inputdevices,com.vt.fte,com.vt.tv.mediacenter,com.vt.hishow,com.vt.tv.smartservice,com.vt.tv.ota,com.vt.tv.smartsense.ui,android,com.vt.tv.tvcenter,com.vt.tv.usbota,com.vt.source.external,com.vt.tv.smartsense,com.android.providers.settings,com.vt.tv.singlelisten,com.android.networkstack.tethering.inprocess,com.at.factory.androidtvaidlservice]
+      flar2.homebutton:
+        [com.vt.source.tuner,com.vt.tv.airplaykeycheck,com.mediatek.tis,com.vt.tv.commonui,com.vt.alexa,com.android.dynsystem,com.android.location.fused,com.vt.avmiddleware,com.vt.tv.mobiledeviceconnectiontips,com.vt.tvservice,com.vt.tv.customerlauncher,com.android.tv.settings,com.vt.factory,com.android.keychain,com.android.networkstack.inprocess,com.android.wallpaperbackup,com.mediatek.network,com.vt.tv.input,com.vt.storemode,com.android.localtransport,com.vt.tv.protector,com.vt.eula,com.mediatek.autopair,com.mediatek.dtv.tvinput.isdbtuner,com.android.inputdevices,com.vt.fte,com.vt.tv.mediacenter,com.vt.hishow,com.vt.tv.smartservice,com.vt.tv.ota,com.vt.tv.smartsense.ui,android,com.vt.tv.tvcenter,com.vt.tv.usbota,com.vt.source.external,com.vt.tv.smartsense,com.android.providers.settings,com.vt.tv.singlelisten,com.android.networkstack.tethering.inprocess,com.at.factory.androidtvaidlservice]
+      org.smarttube.stable:
+        [com.vt.source.tuner,com.vt.tv.airplaykeycheck,com.mediatek.tis,com.vt.tv.commonui,com.vt.alexa,com.android.dynsystem,com.android.location.fused,com.vt.avmiddleware,com.vt.tv.mobiledeviceconnectiontips,com.vt.tvservice,com.vt.tv.customerlauncher,com.android.tv.settings,com.vt.factory,com.android.keychain,com.android.networkstack.inprocess,com.android.wallpaperbackup,com.mediatek.network,com.vt.tv.input,com.vt.storemode,com.android.localtransport,com.vt.tv.protector,com.vt.eula,com.mediatek.autopair,com.mediatek.dtv.tvinput.isdbtuner,com.android.inputdevices,com.vt.fte,com.vt.tv.mediacenter,com.vt.hishow,com.vt.tv.smartservice,com.vt.tv.ota,com.vt.tv.smartsense.ui,android,com.vt.tv.tvcenter,com.vt.tv.usbota,com.vt.source.external,com.vt.tv.smartsense,com.android.providers.settings,com.vt.tv.singlelisten,com.android.networkstack.tethering.inprocess,com.at.factory.androidtvaidlservice]
+      com.aicareles.dlnaserver:
+        [com.vt.source.tuner,com.vt.tv.airplaykeycheck,com.mediatek.tis,com.vt.tv.commonui,com.vt.alexa,com.android.dynsystem,com.android.location.fused,com.vt.avmiddleware,com.vt.tv.mobiledeviceconnectiontips,com.vt.tvservice,com.vt.tv.customerlauncher,com.android.tv.settings,com.vt.factory,com.android.keychain,com.android.networkstack.inprocess,com.android.wallpaperbackup,com.mediatek.network,com.vt.tv.input,com.vt.storemode,com.android.localtransport,com.vt.tv.protector,com.vt.eula,com.mediatek.autopair,com.mediatek.dtv.tvinput.isdbtuner,com.android.inputdevices,com.vt.fte,com.vt.tv.mediacenter,com.vt.hishow,com.vt.tv.smartservice,com.vt.tv.ota,com.vt.tv.smartsense.ui,android,com.vt.tv.tvcenter,com.vt.tv.usbota,com.vt.source.external,com.vt.tv.smartsense,com.android.providers.settings,com.vt.tv.singlelisten,com.android.networkstack.tethering.inprocess,com.at.factory.androidtvaidlservice]
+    User 11:
+  queryable via uses-library:
+
+Shared users:
+  SharedUser [android.uid.system] (f0ec27):
+    userId=1000
+    Packages
+      PackageSetting{2e95d4 com.vt.source.tuner/1000}
+      PackageSetting{8b6fb1 com.vt.tv.airplaykeycheck/1000}
+      PackageSetting{92e629 com.mediatek.tis/1000}
+      PackageSetting{965f27 com.vt.tv.commonui/1000}
+      PackageSetting{c93b40 com.vt.alexa/1000}
+      PackageSetting{1ebfedc com.android.dynsystem/1000}
+      PackageSetting{289e3be com.android.location.fused/1000}
+      PackageSetting{31d829d com.vt.avmiddleware/1000}
+      PackageSetting{376b147 com.vt.tv.mobiledeviceconnectiontips/1000}
+      PackageSetting{3caa312 com.vt.tvservice/1000}
+      PackageSetting{42457f8 com.vt.tv.customerlauncher/1000}
+      PackageSetting{42ff6ba com.android.tv.settings/1000}
+      PackageSetting{442fba4 com.vt.factory/1000}
+      PackageSetting{47df4c2 com.android.keychain/1000}
+      PackageSetting{4d4ab99 com.android.networkstack.inprocess/1000}
+      PackageSetting{5411272 com.android.wallpaperbackup/1000}
+      PackageSetting{652fde6 com.mediatek.network/1000}
+      PackageSetting{67fc6c3 com.vt.tv.input/1000}
+      PackageSetting{683274f com.vt.storemode/1000}
+      PackageSetting{68aad09 com.android.localtransport/1000}
+      PackageSetting{7ba9b0e com.vt.tv.protector/1000}
+      PackageSetting{7eb3258 com.vt.eula/1000}
+      PackageSetting{81734d1 com.mediatek.autopair/1000}
+      PackageSetting{91ad70c com.mediatek.dtv.tvinput.isdbtuner/1000}
+      PackageSetting{9687a37 com.android.inputdevices/1000}
+      PackageSetting{97df441 com.vt.fte/1000}
+      PackageSetting{987b535 com.vt.tv.mediacenter/1000}
+      PackageSetting{b4cac96 com.vt.hishow/1000}
+      PackageSetting{ba6cb6c com.vt.tv.smartservice/1000}
+      PackageSetting{ba82cc8 com.vt.tv.ota/1000}
+      PackageSetting{c2bde5e com.vt.tv.smartsense.ui/1000}
+      PackageSetting{d3b6855 android/1000}
+      PackageSetting{d56c486 com.vt.tv.tvcenter/1000}
+      PackageSetting{d62adae com.vt.tv.usbota/1000}
+      PackageSetting{d75cce0 com.vt.source.external/1000}
+      PackageSetting{da810c5 com.vt.tv.smartsense/1000}
+      PackageSetting{dc7035b com.android.providers.settings/1000}
+      PackageSetting{e094d0d com.vt.tv.singlelisten/1000}
+      PackageSetting{e8b794b com.android.networkstack.tethering.inprocess/1000}
+      PackageSetting{ef03161 com.at.factory.androidtvaidlservice/1000}
+    install permissions:
+      android.permission.REAL_GET_TASKS: granted=true
+      android.permission.ACCESS_CACHE_FILESYSTEM: granted=true
+      android.permission.WRITE_SETTINGS: granted=true
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE: granted=true
+      android.permission.CONFIGURE_WIFI_DISPLAY: granted=true
+      android.permission.RECOVERY: granted=true
+      android.permission.SET_PROCESS_LIMIT: granted=true
+      android.permission.BIND_ATTENTION_SERVICE: granted=true
+      android.permission.RESTART_PACKAGES: granted=true
+      android.permission.USE_CREDENTIALS: granted=true
+      com.mediatek.dtv.tvinput.isdbtuner.settings.settingsprovider.permission.READ_DATA: granted=true
+      android.permission.MODIFY_AUDIO_SETTINGS: granted=true
+      android.permission.MANAGE_EXTERNAL_STORAGE: granted=true
+      com.hisense.tv.smartsense.permission.ACCESS_FIREBASE_STORAGE: granted=true
+      com.hisense.tv.smartsense.permission.ACCESS_FIREBASE_LOG: granted=true
+      android.permission.INSTALL_LOCATION_PROVIDER: granted=true
+      android.permission.USE_RESERVED_DISK: granted=true
+      android.permission.MANAGE_ACCOUNTS: granted=true
+      android.permission.CONTROL_WIFI_DISPLAY: granted=true
+      android.permission.SYSTEM_ALERT_WINDOW: granted=true
+      android.permission.CLEAR_APP_USER_DATA: granted=true
+      com.mediatek.tis.settings.composite.permission.READ_DATA: granted=true
+      android.permission.SHUTDOWN: granted=true
+      android.permission.CHANGE_COMPONENT_ENABLED_STATE: granted=true
+      android.permission.BIND_TV_INPUT: granted=true
+      android.permission.MODIFY_PARENTAL_CONTROLS: granted=true
+      android.permission.BIND_ROTATION_RESOLVER_SERVICE: granted=true
+      android.permission.NETWORK_SETTINGS: granted=true
+      android.permission.CHANGE_NETWORK_STATE: granted=true
+      android.permission.MASTER_CLEAR: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.MANAGE_DYNAMIC_SYSTEM: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.PEERS_MAC_ADDRESS: granted=true
+      android.permission.DEVICE_POWER: granted=true
+      com.hisense.tv.smartsense.permission.ACCESS_DOMAIN: granted=true
+      com.vt.tv.mediacenter.permission.PLAYER_COMMAND: granted=true
+      android.permission.SET_TIME_ZONE: granted=true
+      android.permission.REMOVE_TASKS: granted=true
+      android.permission.MANAGE_PROFILE_AND_DEVICE_OWNERS: granted=true
+      com.hisense.tv.smartsense.permission.ACCESS_LOGSERVICE: granted=true
+      com.android.providers.tv.permission.READ_EPG_DATA: granted=true
+      android.permission.READ_PROFILE: granted=true
+      android.permission.BLUETOOTH: granted=true
+      android.permission.CHANGE_WIFI_MULTICAST_STATE: granted=true
+      com.google.android.assistant.WRITE_HOTWORD_STATE: granted=true
+      android.permission.WRITE_MEDIA_STORAGE: granted=true
+      com.android.setupwizard.permission.SETUP: granted=true
+      android.permission.SET_ANIMATION_SCALE: granted=true
+      android.permission.GET_TASKS: granted=true
+      android.permission.ACCESS_SURFACE_FLINGER: granted=true
+      android.permission.AUTHENTICATE_ACCOUNTS: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.TV_INPUT_HARDWARE: granted=true
+      android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION: granted=true
+      com.hisense.tv.permission.ACTIVITY_STATE: granted=true
+      android.permission.BLUETOOTH_ADMIN: granted=true
+      android.permission.CONTROL_VPN: granted=true
+      android.permission.UPDATE_DEVICE_STATS: granted=true
+      android.permission.ROTATE_SURFACE_FLINGER: granted=true
+      com.android.providers.tv.permission.WRITE_EPG_DATA: granted=true
+      android.permission.ACCESS_INSTANT_APPS: granted=true
+      android.permission.GET_PACKAGE_SIZE: granted=true
+      android.permission.ACCESS_CONTEXT_HUB: granted=true
+      android.permission.INTERACT_ACROSS_USERS_FULL: granted=true
+      android.permission.PACKAGE_USAGE_STATS: granted=true
+      android.permission.MOUNT_UNMOUNT_FILESYSTEMS: granted=true
+      android.permission.GET_ACCOUNTS_PRIVILEGED: granted=true
+      android.permission.TETHER_PRIVILEGED: granted=true
+      android.permission.WRITE_SECURE_SETTINGS: granted=true
+      android.permission.MANAGE_DEBUGGING: granted=true
+      android.permission.SET_ACTIVITY_WATCHER: granted=true
+      android.permission.TUNER_RESOURCE_ACCESS: granted=true
+      android.permission.RADIO_SCAN_WITHOUT_LOCATION: granted=true
+      android.permission.READ_PRIVILEGED_PHONE_STATE: granted=true
+      android.permission.TRIGGER_TIME_ZONE_RULES_CHECK: granted=true
+      android.permission.BROADCAST_STICKY: granted=true
+      android.permission.BLUETOOTH_PRIVILEGED: granted=true
+      android.permission.OBSERVE_SENSOR_PRIVACY: granted=false
+      com.mediatek.tis.settings.analog.permission.WRITE_DATA: granted=true
+      com.mediatek.permission.AirPlay.BroadCast: granted=true
+      android.intent.category.MASTER_CLEAR.permission.C2D_MESSAGE: granted=true
+      android.permission.BIND_JOB_SERVICE: granted=true
+      android.permission.CONFIRM_FULL_BACKUP: granted=true
+      android.permission.SET_TIME: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true
+      com.android.providers.tv.permission.ACCESS_ALL_EPG_DATA: granted=true
+      android.permission.MANAGE_USERS: granted=true
+      android.permission.SET_PREFERRED_APPLICATIONS: granted=true
+      android.permission.DELETE_CACHE_FILES: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.BACKUP: granted=true
+      android.permission.CHANGE_CONFIGURATION: granted=true
+      android.permission.LOCAL_MAC_ADDRESS: granted=true
+      android.permission.READ_LOGS: granted=true
+      android.permission.INTERACT_ACROSS_USERS: granted=true
+      android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS: granted=true
+      com.android.tv.settings.permission.NOTIFY_SETTINGS: granted=true
+      android.permission.KILL_BACKGROUND_PROCESSES: granted=true
+      android.permission.MAINLINE_NETWORK_STACK: granted=true
+      android.permission.MANAGE_SENSOR_PRIVACY: granted=false
+      android.permission.CONNECTIVITY_USE_RESTRICTED_NETWORKS: granted=true
+      android.permission.CHANGE_HDMI_CEC_ACTIVE_SOURCE: granted=true
+      android.permission.WRITE_DREAM_STATE: granted=true
+      com.mediatek.tis.settings.analog.permission.READ_DATA: granted=true
+      android.permission.REBOOT: granted=true
+      android.permission.ACCESS_TV_TUNER: granted=true
+      android.permission.SCHEDULE_EXACT_ALARM: granted=true
+      android.permission.REQUEST_DELETE_PACKAGES: granted=true
+      android.permission.CLEAR_APP_CACHE: granted=true
+      android.permission.ACCESS_TV_DESCRAMBLER: granted=true
+      com.hisense.tv.smartsense.permission.ACCESS_LOG: granted=true
+      android.permission.MANAGE_NOTIFICATION_LISTENERS: granted=true
+      android.permission.READ_CONTENT_RATING_SYSTEMS: granted=true
+      com.google.android.tvlauncher.permission.setDevserial: granted=true
+      com.google.android.assistant.READ_HOTWORD_STATE: granted=true
+      android.permission.SEND_SHOW_SUSPENDED_APP_DETAILS: granted=true
+      android.permission.CONNECTIVITY_INTERNAL: granted=true
+      android.permission.START_ACTIVITIES_FROM_BACKGROUND: granted=true
+      android.permission.LOADER_USAGE_STATS: granted=true
+      android.permission.OVERRIDE_WIFI_CONFIG: granted=true
+      android.permission.FORCE_STOP_PACKAGES: granted=true
+      android.permission.SUGGEST_MANUAL_TIME_AND_ZONE: granted=true
+      android.permission.HIDE_NON_SYSTEM_OVERLAY_WINDOWS: granted=true
+      android.permission.MEDIA_RESOURCE_OVERRIDE_PID: granted=true
+      android.permission.HDMI_CEC: granted=true
+      android.permission.MANAGE_SLICE_PERMISSIONS: granted=true
+      android.permission.MANAGE_SCOPED_ACCESS_DIRECTORY_PERMISSIONS: granted=true
+      com.vt.eula.permission.SYNC_EULA_STATE: granted=true
+      com.mediatek.tv.extservice.permission.REQUEST_AUDIO_EXT: granted=true
+      android.permission.GET_DETAILED_TASKS: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      com.mediatek.dtv.tvinput.isdbtuner.settings.settingsprovider.permission.WRITE_DATA: granted=true
+      android.permission.REQUEST_INSTALL_PACKAGES: granted=true
+      android.permission.QUERY_ALL_PACKAGES: granted=true
+      com.hisense.syncplay.permission: granted=true
+      com.google.android.gms.permission.AD_ID: granted=true
+      android.permission.DUMP: granted=true
+      android.permission.LOCATION_HARDWARE: granted=true
+      android.permission.UNLIMITED_TOASTS: granted=true
+      android.permission.WAKE_LOCK: granted=true
+      android.permission.INJECT_EVENTS: granted=true
+      android.permission.BIND_NETWORK_RECOMMENDATION_SERVICE: granted=true
+      android.permission.UPDATE_APP_OPS_STATS: granted=true
+      android.permission.READ_OEM_UNLOCK_STATE: granted=true
+      android.permission.DELETE_PACKAGES: granted=true
+    User 0:
+      gids=[2001, 1065, 3002, 3003, 3001, 3007, 1007, 3005, 3004]
+      runtime permissions:
+        android.permission.ACCESS_FINE_LOCATION: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        com.vt.dispatch.permission.DISPATCH_SERVICE: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT]
+        android.permission.BLUETOOTH_CONNECT: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_EXTERNAL_STORAGE: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.ACCESS_COARSE_LOCATION: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_PHONE_STATE: granted=true, flags=[ GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.BLUETOOTH_ADVERTISE: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT]
+        android.permission.GET_ACCOUNTS: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.RECORD_AUDIO: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_CONTACTS: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.ACCESS_BACKGROUND_LOCATION: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.BLUETOOTH_SCAN: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+    User 11:
+      gids=[2001, 1065, 3002, 3003, 3001, 3007, 1007, 3005, 3004]
+      runtime permissions:
+        android.permission.ACCESS_FINE_LOCATION: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT]
+        com.vt.dispatch.permission.DISPATCH_SERVICE: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT]
+        android.permission.BLUETOOTH_CONNECT: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT]
+        android.permission.READ_EXTERNAL_STORAGE: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.ACCESS_COARSE_LOCATION: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT]
+        android.permission.READ_PHONE_STATE: granted=true, flags=[ GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT]
+        android.permission.BLUETOOTH_ADVERTISE: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT]
+        android.permission.GET_ACCOUNTS: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.RECORD_AUDIO: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT]
+        android.permission.READ_CONTACTS: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT]
+        android.permission.ACCESS_BACKGROUND_LOCATION: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.BLUETOOTH_SCAN: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT]
+
+Package Changes:
+  Sequence number=6
+  User 0:
+    seq=1, package=com.android.bluetooth
+    seq=3, package=com.vt.tv.smartservice
+    seq=5, package=com.netflix.ninja
+
+
+Dexopt state:
+  [com.vt.tv.mobiledeviceconnectiontips]
+    path: /system_ext/app/Miracast/Miracast.apk
+      arm: [status=verify] [reason=prebuilt]
+
+
+Compiler stats:
+  [com.vt.tv.mobiledeviceconnectiontips]
+    (No recorded stats)
+Snapshot statistics
+   Unrecorded-hits: 1318  Cork-level: 0
+   Summary stats               TotBlds     TotUsed     TotCork     BigBlds    ShortLvd     TotTime     MaxTime
+          0:38         now           0           0           0           0           0           0           0
+          1:38        0:38           0           0           0           0           0           0           0
+          2:38        1:38           0           0           0           0           0           0           0
+          3:38        2:38           0           0           0           0           0           0           0
+          4:38        3:38           0           0           0           0           0           0           0
+          5:38        4:38           0           0           0           0           0           0           0
+          6:38        5:38           0           0           0           0           0           0           0
+          7:39        6:38           1        1960           0           0           0           1           1
+          8:39        7:39           0           0           0           0           0           0           0
+          9:39        8:39           0           0           0           0           0           0           0
+   6146:11:44:20         now         213      114629           0           7          40         846         272
+
+   Build times                  <= 1ms      <= 2ms      <= 5ms     <= 10ms     <= 20ms     <= 50ms    <= 100ms     > 100ms
+          0:38         now           0           0           0           0           0           0           0           0
+          1:38        0:38           0           0           0           0           0           0           0           0
+          2:38        1:38           0           0           0           0           0           0           0           0
+          3:38        2:38           0           0           0           0           0           0           0           0
+          4:38        3:38           0           0           0           0           0           0           0           0
+          5:38        4:38           0           0           0           0           0           0           0           0
+          6:38        5:38           0           0           0           0           0           0           0           0
+          7:39        6:38           1           0           0           0           0           0           0           0
+          8:39        7:39           0           0           0           0           0           0           0           0
+          9:39        8:39           0           0           0           0           0           0           0           0
+   6146:11:44:20         now         183           7          11           5           2           2           1           2
+
+   Use counters                   <= 1        <= 2        <= 5       <= 10       <= 20       <= 50      <= 100       > 100
+          0:38         now           0           0           0           0           0           0           0           0
+          1:38        0:38           0           0           0           0           0           0           0           0
+          2:38        1:38           0           0           0           0           0           0           0           0
+          3:38        2:38           0           0           0           0           0           0           0           0
+          4:38        3:38           0           0           0           0           0           0           0           0
+          5:38        4:38           0           0           0           0           0           0           0           0
+          6:38        5:38           0           0           0           0           0           0           0           0
+          7:39        6:38           0           0           0           0           0           0           0           1
+          8:39        7:39           0           0           0           0           0           0           0           0
+          9:39        8:39           0           0           0           0           0           0           0           0
+   6146:11:44:20         now          22           7          10           9          13          24          23         104
+
+C:\Windows\System32>adb shell dumpsys package com.vt.tv.mobiledeviceconnectiontips | findstr /i "BOOT_COMPLETED LOCKED_BOOT_COMPLETED receiver"
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+
+C:\Windows\System32>adb shell dumpsys package com.vt.tv.mobiledeviceconnectiontips | findstr /i "ScreenSharingActivity launchMode exported"
+        4517bcf com.vt.tv.mobiledeviceconnectiontips/.screensharing.ScreenSharingActivity filter b84f95c
+        4517bcf com.vt.tv.mobiledeviceconnectiontips/.screensharing.ScreenSharingActivity filter b84f95c
